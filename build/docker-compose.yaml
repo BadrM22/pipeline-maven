@@ -1,0 +1,6 @@
+services:
+  maven:
+    image: "maven-project:$BUILD_TAG"
+    container_name: java-app
+    build:
+      context: .
